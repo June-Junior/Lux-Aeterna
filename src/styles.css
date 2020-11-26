@@ -1,0 +1,74 @@
+  
+html {
+  
+  min-height: 100%;
+}
+
+body {
+  
+  background: teal;
+}
+
+#timer-1 {
+  color: salmon;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .6em;
+  letter-spacing: 5px;
+  margin-top: 25%;
+}
+
+.value {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 4em;
+}
+
+.counter-name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: salmon;
+}
+
+
+.days, .hours, .minutes, .seconds, .centiseconds {
+  display: inline-block;
+  padding: 20px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.days {
+  background: brown;
+}
+
+.hours {
+  background: rgb(72, 67, 116);
+  color: teal;
+}
+
+.minutes {
+  background: rgb(165, 184, 0);
+  color: blueviolet;
+}
+
+.seconds {
+  background: grey;
+  color: white;
+}
+
+.centiseconds {
+  background: rgb(88, 224, 88);
+  color: rgb(214, 97, 97);
+}
+.numbers {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 4em;
+}
+
+
+
