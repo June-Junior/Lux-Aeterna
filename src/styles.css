@@ -25,13 +25,13 @@ body {
 }
 
 .counter-name {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
   margin-top: 2em;
-  font-size: 2em;
+  font-size: 3em;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: salmon;
+  color: rgb(132, 255, 159);
 }
 
 
