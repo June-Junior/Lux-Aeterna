@@ -15,8 +15,11 @@ const refs = {
 
 const CountdownTimer = {
   start() {
-    const deadLine = new Date().setTime(1606496400000);
-    
+    // способ 1 - const deadLine = new Date().setTime(1606496400000);
+    // способ 2 - const deadLine = new Date('December 25, 2020');
+    // способ 3 - new Date(year, month, date, hours, minutes, seconds, ms);
+
+    const deadLine = new Date(2020, 11, 25, 19, 0, 0, 0);
     function showTimeCountdown() {
       const currentTime = Date.now();
       console.log('start -> deadLine', deadLine);
