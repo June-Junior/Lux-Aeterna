@@ -6,7 +6,10 @@ html {
 
 body {
   background: teal;
-  background-image: url(https://cdn.viewing.nyc/assets/media/ae912d7c3ad0da68b9f25559cde92e6b/elements/ec4ea1101cc6236be13891eabdb503e9/75dcd2d6-442b-4a80-98d1-71225c20e3ad.gif);
+  background-image: url(https://media0.giphy.com/media/3oz8xTtOPAo6LAbwcg/source.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #timer-1 {
