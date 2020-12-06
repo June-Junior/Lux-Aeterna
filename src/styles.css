@@ -19,7 +19,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: .6em;
   letter-spacing: 5px;
-  margin-top: 25%;
+  margin-top: 40%;
 }
 
 .value {
@@ -30,7 +30,7 @@ body {
 .counter-name {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1em;
   font-size: 5em;
   font-weight: bold;
   text-transform: uppercase;
@@ -41,8 +41,8 @@ body {
 
 .days, .hours, .minutes, .seconds, .centiseconds {
   display: inline-block;
-  padding: 20px;
-  width: 100px;
+  padding: 15px;
+  width: 60px;
   border-radius: 5px;
   margin-right: 10px;
 }
